@@ -47,6 +47,22 @@ section p{
 .card{
     width: 175px;
     font-size: 12px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.card-title{
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .card-img{
